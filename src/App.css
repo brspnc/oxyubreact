@@ -1,38 +1,15 @@
-.App {
-  text-align: center;
-}
+h1, h2 {
+  font-family: 'Varela Round', sans-serif; }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.jumbotron {
+  margin: 0;
+  padding: 20px;
+  background-image: linear-gradient(to right, #faa508, black);
+  color: white; }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.navbar {
+  background-color: black; }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+footer {
+  background-image: linear-gradient(#faa508, white);
+  padding: 20px 0; }
