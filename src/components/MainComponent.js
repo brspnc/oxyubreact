@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import Header from './HeaderComponent';
-import Footer from './FooterComponent'
+import Footer from './FooterComponent';
+import Resources from './ResourcesComponent';
 
 class Main extends Component {
     render() {
@@ -9,6 +10,7 @@ class Main extends Component {
             <div>
                 <Header />
                 <Switch>
+                    <Route path='/resources' component={Resources} />
                     <Redirect to='/home' />
                 </Switch>
                 <Footer />

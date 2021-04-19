@@ -2,8 +2,7 @@ h1, h2 {
   font-family: 'Varela Round', sans-serif; }
 
 .jumbotron {
-  margin: 0;
-  padding: 20px;
+  margin-bottom: 0px;
   background-image: linear-gradient(to right, #faa508, black);
   color: white; }
 
