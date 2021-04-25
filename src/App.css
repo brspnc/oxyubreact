@@ -12,3 +12,7 @@ h1, h2 {
 footer {
   background-image: linear-gradient(#faa508, white);
   padding: 20px 0; }
+
+.modalheader {
+  background-image: linear-gradient(to left, #faa508, black);
+}
