@@ -1,18 +1,28 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
 h1, h2 {
   font-family: 'Varela Round', sans-serif; }
 
 .jumbotron {
-  margin-bottom: 0px;
   background-image: linear-gradient(to right, #faa508, black);
   color: white; }
 
 .navbar {
-  background-color: black; }
+  background-color: black;
+  }
 
 footer {
   background-image: linear-gradient(#faa508, white);
   padding: 20px 0; }
 
-.modalheader {
+.modalH {
   background-image: linear-gradient(to left, #faa508, black);
+  color: white;
+}
+
+.ubcalendar {
+  min-height: 500px;
 }

@@ -31,7 +31,7 @@ class Header extends Component {
     render() {
         return (
             <React.Fragment>
-                <Jumbotron fluid>
+                <Jumbotron>
                     <div className="container">
                         <div className="row">
                             <div className="col">
@@ -42,7 +42,7 @@ class Header extends Component {
                     </div>
                 </Jumbotron>
 
-                <Navbar dark fixed expand="md">
+                <Navbar dark sticky="top" expand="md">
                     <div className="container">
                         <NavbarToggler onClick={this.toggleNav} />  
                         <Collapse isOpen={this.state.isNavOpen} navbar >
@@ -82,7 +82,7 @@ class Header extends Component {
                     </div>
                 </Navbar>
                 <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
-                    <ModalHeader toggle={this.toggleModal}>Login</ModalHeader>
+                    <ModalHeader toggle={this.toggleModal} className="modalH">Login</ModalHeader>
                     <ModalBody>
                         <LocalForm onSubmit={this.handleLogin}>
                             <div className="form-group">

@@ -12,7 +12,7 @@ const Resources = (props) => {
     
     return (
         <div className="container">
-            <div className="rox">
+            <div className="row">
                 <div className="col">
                     <Breadcrumb>
                         <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>

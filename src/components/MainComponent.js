@@ -3,6 +3,7 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import Resources from './ResourcesComponent';
+import UBCalendar from './CalendarComponent';
 
 class Main extends Component {
     render() {
@@ -11,6 +12,7 @@ class Main extends Component {
                 <Header />
                 <Switch>
                     <Route path='/resources' component={Resources} />
+                    <Route path='/calendar' component={UBCalendar} />
                     <Redirect to='/home' />
                 </Switch>
                 <Footer />
