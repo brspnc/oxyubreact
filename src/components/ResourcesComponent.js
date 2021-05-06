@@ -40,15 +40,15 @@ const Resources = (props) => {
                         <TabPane tabId="1"> 
                             <Card>
                                 <CardBody>
-                                    <a target="_blank" href="https://studentaid.gov/h/apply-for-aid/fafsa">Federal Student Aid (FAFSA) Home page</a><br />
-                                    <a traget="_blnak" href="https://fafsa.ed.gov/spa/fafsa/#/LOGIN?locale=en_US">FAFSA Login</a>
+                                    <a target="_blank" rel="noreferrer" href="https://studentaid.gov/h/apply-for-aid/fafsa">Federal Student Aid (FAFSA) Home page</a><br />
+                                    <a traget="_blnak" rel="noreferrer" href="https://fafsa.ed.gov/spa/fafsa/#/LOGIN?locale=en_US">FAFSA Login</a>
                                 </CardBody>
                             </Card>
                         </TabPane>
                         <TabPane tabId="2">
                         <Card>
                             <CardBody>
-                                <a target="_blank" href="https://www.commonapp.org/">Common Application</a><br/>
+                                <a target="_blank" rel="noreferrer" href="https://www.commonapp.org/">Common Application</a><br/>
                                 <p>The Common Application is accepted by more than 900 schools.</p>
                             </CardBody>
                         </Card>
